@@ -1,0 +1,10 @@
+{
+  "name": "NGO Learn",
+  "short_name": "NGO Learn",
+  "description": "Practical digital skills, made accessible.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff8e8",
+  "theme_color": "#fff8e8",
+  "icons": []
+}
