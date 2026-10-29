@@ -6,6 +6,7 @@ export type Lesson = {
   type: LessonType;
   duration: string;
   description: string;
+  video?: string;
 };
 
 export type Course = {
@@ -41,10 +42,10 @@ export const LESSONS_BY_COURSE: Record<string, Lesson[]> = {
     { id: "website", title: "What is a website?", type: "code", duration: "18 min", description: "Open the terminal and make your first tiny web page." },
   ],
   html: [
-    { id: "structure", title: "Your first HTML document", type: "code", duration: "18 min", description: "Give your page a solid, readable structure." },
-    { id: "headings", title: "Headings & paragraphs", type: "text", duration: "12 min", description: "Help your reader scan and understand your message." },
-    { id: "links", title: "Links & images", type: "code", duration: "16 min", description: "Connect pages and add images with meaningful alternative text." },
-    { id: "forms", title: "Forms that welcome everyone", type: "exercise", duration: "20 min", description: "Collect information with labels, focus states and clear actions." },
+    { id: "structure", title: "Your first HTML document", type: "code", duration: "18 min", description: "Give your page a solid, readable structure.", video: "/videos/html/IMG_9892.MP4" },
+    { id: "headings", title: "Headings & paragraphs", type: "text", duration: "12 min", description: "Help your reader scan and understand your message.", video: "/videos/html/IMG_9893.MP4" },
+    { id: "links", title: "Links & images", type: "code", duration: "16 min", description: "Connect pages and add images with meaningful alternative text.", video: "/videos/html/IMG_9894.MP4" },
+    { id: "forms", title: "Forms that welcome everyone", type: "exercise", duration: "20 min", description: "Collect information with labels, focus states and clear actions.", video: "/videos/html/IMG_9895.MP4" },
   ],
   css: [
     { id: "selectors", title: "Selecting the right elements", type: "text", duration: "14 min", description: "Use selectors to target exactly what you want to style." },
